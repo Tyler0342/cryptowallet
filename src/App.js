@@ -7,15 +7,15 @@ import { Navbar } from './components';
 const App = () => {
   return (
     <div calssName='app'>
-        <div className='navbar'>
+        <li className='navbar'>
             <Navbar />
-        </div>
-        <div className='main'>
+        </li>
+        <li className='main'>
 
-        </div>
-        <div className='footer'>
+        </li>
+        <li className='footer'>
             
-        </div>
+        </li>
     </div>
   )
 }
